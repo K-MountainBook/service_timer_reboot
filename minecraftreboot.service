@@ -1,0 +1,10 @@
+[Unit]
+Description=MineCraft Server Reboot
+
+[Service]
+Type=simple
+ExecStart=/home/mcserver/minecraft/forge/restart.sh
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

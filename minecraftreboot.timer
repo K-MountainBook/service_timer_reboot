@@ -1,0 +1,10 @@
+[Unit]
+Description=MineCraft Server Reboot
+
+[Timer]
+OnCalendar=Mon *-*-* 5:00:00
+Persistent=false
+
+[Install]
+WantedBy=timers.target
+
